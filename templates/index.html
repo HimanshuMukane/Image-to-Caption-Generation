@@ -1,0 +1,33 @@
+{% extends "layout.html" %}
+
+{% block csslinks %}
+{% endblock %}
+
+{% set home = 'active' %}
+{% set text = '' %}
+{% set image = '' %}
+
+{% block body %}
+<div class="container">
+    <div class="jumbotron my-4">
+        <h1 class="display-4 text-center">About Us</h1>
+        <p class="lead text-center">VisionVerse provides advanced text analysis and object detection services to help businesses and individuals make informed decisions.</p>
+        <hr class="my-4">
+        <p class="text-center">Our platform utilizes cutting-edge algorithms and machine learning techniques to provide almost accurate and reliable results.</p>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <a href="/image"><h3>Image Analysis</h3></a>
+                <ul>
+                    <li>Object Detection</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    
+</div>
+{% endblock %}
+
+{% block script %}
+{% endblock %}
