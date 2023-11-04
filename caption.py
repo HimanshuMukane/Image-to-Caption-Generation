@@ -11,7 +11,7 @@ import spacy
 nlp = spacy.load("en_core_web_lg")
 
 learning_rate = 0.00001
-batch_size = 1224
+batch_size = 4896
 embedding_size = 50
 epochs = 1000
 
