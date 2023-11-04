@@ -4,7 +4,7 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>VisionVerse - {{ params.title }}</title>
+  <title>DetectView - {{ params.title }}</title>
   <link rel="stylesheet" href="{{ url_for('static',filename='css/style.css') }}">
   <link rel="stylesheet" href="{{ url_for('static',filename='css/bootstrap.min.css') }}">
   <link rel="stylesheet" href="{{ url_for('static',filename='css/all.min.css') }}">
@@ -16,14 +16,13 @@
 <body>
   <nav class="navbar navbar-expand-lg navbar-dark bg-primary px-4">
       <a class="navbar-brand" href="/">
-        <img src="{{ url_for('static',filename='imgs/logo.svg') }}" alt="Visionverse" height="50">
-        VisionVerse
+        DetectView
       </a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#visionverseNavLinks"
-      aria-controls="visionverseNavLinks" aria-expanded="false" aria-label="Toggle navigation">
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#DetectViewNavLinks"
+      aria-controls="DetectViewNavLinks" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
-    <div class="collapse navbar-collapse" id="visionverseNavLinks">
+    <div class="collapse navbar-collapse" id="DetectViewNavLinks">
       <div class="navbar-nav">
         <a class="nav-item nav-link {{ home }}" href="/">Home</a>
         <a class="nav-item nav-link {{ image }}" href="/image">Image Analysis</a>
